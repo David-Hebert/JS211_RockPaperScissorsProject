@@ -2,14 +2,36 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="main.js"></script>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <hr/>
-    <div id="display-element"></div>
-    <button onclick="displayDate()">Click Me</button>
-    <hr/>
+    <div class="rockpaperscissors">
+      <div class="scoreboard">
+        <div class="score-1">
+          <h3>Player One</h3>
+          <h5>0</h5>
+        </div>
+        <div class="score-2">
+          <h3>Player Two</h3>
+          <h5>0</h5>
+        </div>
+      </div>
+      <h3>Rock Paper Scissors</h3>
+        <div class="hands">
+          <div id="left-hand" class="hand-left"><p>🤜</p></div>
+          <div id="right-hand" class="hand-right"><p>🤛</p></div>
+        </div>
+        <div id="winner">And The Winner Is: </div>
+        <div class="input">
+          <input type="text" name="user-input" id="user-input" placeholder="Rock, Paper, or Scissors!">
+          <input type="text" name="user2-input" id="user2-input" placeholder="Rock, Paper or Scissors!">
+        </div>
+        <div class="play-button">
+          <button onclick="rockPaperScissors()">Go</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

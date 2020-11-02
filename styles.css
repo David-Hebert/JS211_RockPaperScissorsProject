@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Anton;
+    color: #be98eb;
+    font-size: 36px;
+}
+
+body {
+    background-color: #30516e;
+}
+
+.rockpaperscissors {
+    width: 700px;
+    margin: auto;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.score-1 {
+    margin-top: 20px;
+    -webkit-text-stroke: 1px #082917;
+}
+
+.score-2 {
+    margin-top: 20px;
+    -webkit-text-stroke: 1px #082917;
+}
+
+h3 {
+    text-align: center;
+    -webkit-text-stroke: 1px #082917;
+}
+
+.hands {
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#left-hand {
+    font-size: 100px;
+}
+
+#right-hand {
+    font-size: 100px;
+}
+
+.hand-left p {
+    font-size: 100px;
+}
+
+.hand-right p {
+    font-size: 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    -webkit-text-stroke: 1px #082917;
+}
+
+.choice-button {
+    width: 150px;
+    cursor: pointer;
+    background-color: #081a29;
+    border: none;
+    box-shadow: 1px 1px 5px;
+}
+
+.choice-button:hover {
+    background-color: #01070d;
+    transition: 0.3s;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.input input {
+    background-color: #be98eb;
+    border: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color: #30516e;
+    -webkit-text-stroke: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#winner {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    -webkit-text-stroke: 1px #082917;
+}
+
+.play-button {
+    width: 80px;
+    margin: auto;
+    text-align: center;
+}
+
+.play-button button {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 80px;
+    background-color: #be98eb;
+    color: #30516e;
+    border: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #01070d;
+}
+
+.play-button button:hover {
+    color: #01070d;
+    transition: 0.5s;
+    box-shadow: 2px 2px 5px;
+}
